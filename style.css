@@ -102,13 +102,16 @@ color:#0000ff;
 .about-col-2{
     flex-basis:60%;
 }
+.about-col-2 h1{
+    color:red;
+}
 #what-of-me{
    display: flex;
    justify-content: space-between;
    flex-wrap: wrap;
 }
 /*-----------------About My_Pet-------------*/
-#Pet{
+#Animal {
     padding:80px 0;
     color:#ababab;
 }
@@ -117,15 +120,22 @@ color:#0000ff;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.My_pet{
+.spirit_animal{
     flex-basis: 35%;
 }
-.My_pet img{
+.spirit_animal img{
     width:80%;
     border-radius: 15px;
 }
-.My_pet-2{
+.spirit_animal2 {
     flex-basis: 60%;
+}
+.spirit_animal2 h1{
+    color:red;
+}
+#My_Hobbies h1{
+    color:red;
+
 }
 
 #details {
