@@ -35,7 +35,7 @@
                         <div class="about-col-1">
                             <img src="images/Screenshot from 2024-03-08 14-23-14.png">
                         </div>
-                        <!--------------about sections---------------->
+                        
                         <div class="about-col-2">
                             <h1 class="sub-title">About Me</h1>
                             <p>As a passionate software engineer with a deep enthusiasm for problem-solving, 
@@ -44,19 +44,23 @@
                                  I approach each problem as an opportunity for innovation and growth.<br>
                                  My dedication to continuous learning and exploration drives me to stay abreast of the latest developments in the field, 
                                  allowing me to adapt quickly to evolving technologies and methodologies.</p><br>
-                                 <section id="what-of-me">
+        
                                   
     
-                                    <div class="tab-contents ">
-                                        <h1>Skills</h1>
+                                    <div class="tab-titles ">
+                                        <p class="tab-links active-link" onclick="showtab('skills')">Skills</p>
+                                        <p class="tab-links" onclick="showtab('expirence')">Expirence</p>
+                                        <p class="tab-links" onclick="showtab('education')">Education</p>
+                                    </div>
+                                    <div class="tab-contents active-tab" id="skills">
                                         <ul>
                                             <li><span>Software</span><br>Designing Website interfaces</li>
                                             <li><span>Web Development</span><br>Website App Development</li>
                                             <li><span>App Development</span><br>Android Apps</li>
                                         </ul>
                                     </div>
-                                    <div class="tab-contents" >
-                                        <h1>Expirence</h1>
+                                    <div class="tab-contents" id="expirence">
+                                        
                                         <ul>
                                             <li><span>2019 -2023</span><br>Student at Kirinyaga University Traning Technology
                                             in Computer Engineering</li>
@@ -64,15 +68,14 @@
                                             <li><span>2024 -current</span><br>Studing to be a Senior Software Engineer</li>
                                         </ul>
                                     </div>
-                                    <div class="tab-contents">
-                                        <h1>Education</h1>
+                                    <div class="tab-contents" id="education">
+                                        
                                         <ul>
                                             <li><span>2019</span><br>Kirinyaga University</li>
                                             <li><span>2023</span><br>Simba Colt Corporation</li>
                                             <li><span>2024</span><br>Moringa School</li>
                                         </ul>
                                     </div>
-                                 </section>
                                  
 
                         </div>
@@ -168,6 +171,6 @@
         
     </div>
     
-   
+   <script src="mains.js"></script>
 </body>
 </html>
